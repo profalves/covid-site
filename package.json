@@ -1,0 +1,7 @@
+{
+  "name": "covid-news",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rodrigo Alves <igo.sud@hotmail.com>",
+  "license": "MIT"
+}
