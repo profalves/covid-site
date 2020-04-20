@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="shortcut icon" href="../img/coronavirus-favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="topbar">
+    <img src="../img/covid.jpg" alt="logo">
+  </header>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li>
+        <a href="sobre.html">Sobre</a>
+      </li>
+      <li>
+        <a href="contato.html" id="current">Contato</a>
+      </li>
+      <li>
+        <a href="saibamais.html">Saiba Mais</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Entre em contato:</h1>
+    <form id="contato" onsubmit="success()">
+      <label for="nome">Nome Completo</label>
+      <input name="nome" type="text" required>
+      <label for="email">Seu Email</label>
+      <input name="email" type="email" required>
+      <label for="assunto">Assunto</label>
+      <input name="assunto" type="text" required>
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" required rows="10"></textarea>
+      <input type="submit" value="enviar">
+    </form>
+  </main>
+  <footer>
+    &copy; Rodrigo Alves. 2020
+  </footer>
+  <script>
+    function success() {
+      alert("Seus dados foram enviados")
+    }
+  </script>
+</body>
+
+</html>
